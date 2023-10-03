@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/normalize.css">
+    <link rel="stylesheet" href="assets/ui-components-master/slider/itc-slider.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="modal/modal.css">
+    <title>Robo School</title>
+</head>
+<body>
+    <main>
+        <section class="start">
+            <div class="start-header">
+                <h1 class="start-header-logo">ROBO.SCHOOL</h1>
+                <button id="myBtn" class="start-header-button"><img class="start-header-list" src="media/images/list.svg" alt="menu"></button>
+            </div>
+            <!-- Модальный -->
+            <div id="myModal" class="modal">
+                <!-- Модальное содержание -->
+                <div class="modal-content">
+                <span class="close">&times;</span>
+                <a class="modal-text" href="#about">О школе</a>
+                <a class="modal-text" href="#coaches">Тренеры</a>
+                <a class="modal-text" href="#prices">Стоимость</a>
+                </div>
+            </div>
+            <script src="modal/modal.js"></script>
+            <div class="start-main-girl">
+                <div class="start-main">
+                    <h1 class="start-main-title">ROBO SCHOOL</h1>
+                    <p class="start-main-desc">Курсы повышения квалификации по робототехнике для педагогов начальной школы</p>
+                </div>
+                <div class="start-girl">
+                    <div class="start-circle">
+                        <img class="start-girl-img" src="media/images/start-girl.png" alt="Девушка">
+                    </div>
+                    <a href="#sign"><button class="start-button" id="">Записаться на курс</button></a>
+            </div>
+            </div>
+        </section>
+        <section class="statistic" id="about">
+            <div class="statistic-main">
+                <p class="statistic-intro-text"><b>Robo School</b> – учреждение для формирования кадрового педагогического резерва в сфере робототехники программирования</p>
+                <div class="statistic-main-items">
+                    <div class="statistic-main-item">
+                        <h1 class="statistic-main-title">10</h1>
+                        <p class="statistic-main-text">УМК по различным направлениям по робототехнике</p>
+                    </div>
+                    <div class="statistic-main-item">
+                        <h1 class="statistic-main-title">20</h1>
+                        <p class="statistic-main-text">Школ, в которых запущена робототехника</p>
+                    </div>
+                    <div class="statistic-main-item">
+                        <h1 class="statistic-main-title">100</h1>
+                        <p class="statistic-main-text">Педагогов прошедших курсы повышения квалификации</p>
+                    </div>
+                    <div class="statistic-main-item">
+                        <h1 class="statistic-main-title">10 000</h1>
+                        <p class="statistic-main-text">Обученных детей на базе собственных центров</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="knowledge">
+            <div class="knowledge-main">
+                <h1 class="knowledge-main-intro">Что вы получите после курса</h1>
+                <div class="knowledge-main-items">
+                    <div class="knowledge-main-item">
+                        <h2 class="knowledge-main-title">Удостоверение</h2>
+                        <p class="knowledge-main-text">Дающее право преподавать робототехнику для детей 6-12 лет в образовательных учреждениях</p>
+                    </div>
+                    <div class="knowledge-main-item">
+                        <h2 class="knowledge-main-title">Знания</h2>
+                        <p class="knowledge-main-text">По основам разработки учебно-методических комплексов по робототехнике и программированию</p>
+                    </div>
+                    <div class="knowledge-main-item">
+                        <h2 class="knowledge-main-title">Практику</h2>
+                        <p class="knowledge-main-text">Возможность пройти практику по преподаванию робототехники на базе R:ED LAB (в оффлайн или онлайн формате)</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="coaches" id="coaches">
+            <div class="coaches-title-container">
+                <h1 class="coaches-title">Профессиональные тренеры</h1>
+            </div>
+            <div class="itc-slider" data-slider="itc-slider">
+                <div class="itc-slider-wrapper">
+                  <div class="itc-slider-items">
+                    <div class="itc-slider-item">
+                        <img class="coach-img" src="media/images/irina.jpeg" alt="irina">
+                        <h2 class="coach-name">Ирина Лайм</h2>
+                        <p class="coach-desc">преподователь по робототехнике</p>
+                        <a class="coach-more" href="">Подробнее</a>
+                    </div>
+                    <div class="itc-slider-item">
+                        <img class="coach-img" src="media/images/marina.jpeg">
+                        <h2 class="coach-name">Марина Орлова</h2>
+                        <p class="coach-desc">преподователь по робототехнике</p>
+                        <a class="coach-more" href="">Подробнее</a>
+                    </div>
+                    <div class="itc-slider-item">
+                        <img class="coach-img" src="media/images/maxim.jpeg">
+                        <h2 class="coach-name">Максим Петров</h2>
+                        <p class="coach-desc">преподователь по программированию</p>
+                        <a class="coach-more" href="">Подробнее</a>
+                    </div>
+                    <div class="itc-slider-item">
+                        <img class="coach-img" src="media/images/constantine.jpeg">
+                        <h2 class="coach-name">Константин Назаров</h2>
+                        <p class="coach-desc">преподователь по робототехнике</p>
+                        <a class="coach-more" href="">Подробнее</a>
+                    </div>
+                    <div class="itc-slider-item">
+                        <img class="coach-img" src="media/images/liza.jpeg">
+                        <h2 class="coach-name">Лиза Весенняя</h2>
+                        <p class="coach-desc">преподователь по программированию</p>
+                        <a class="coach-more" href="">Подробнее</a>
+                    </div>
+                  </div>
+                </div>
+                <!-- Кнопки для перехода к предыдущему и следующему слайду -->
+                <button class="itc-slider-btn itc-slider-btn-prev"></button>
+                <button class="itc-slider-btn itc-slider-btn-next"></button>
+                <script src="assets/ui-components-master/slider/itc-slider.js" defer></script>
+        </section>
+        <section class="package" id="prices">
+            <div class="package-title-container">
+                <h1 class="package-title">Выберите нужный пакет</h1>
+            </div>
+            <div class="package-items">
+                <div class="package-item-blue">
+                    <h1 class="package-item-name-blue">– PRO –</h1>
+                    <h1 class="package-item-price-blue">20.000 ₽</h1>
+                    <p class="package-item-desc-blue">УМК по робототетхнике и программированию</p>
+                    <button class="package-item-button" href="#sign">Оставить заявку</button>
+                </div>
+                <div class="package-item-white">
+                    <h1 class="package-item-name-white">– ROBO –</h1>
+                    <h1 class="package-item-price-white">15.000 ₽</h1>
+                    <p class="package-item-desc-white">УМК по робототетхнике </p>
+                    <button class="package-item-button" href="#sign">Оставить заявку</button>
+                </div>
+                <div class="package-item-white">
+                    <h1 class="package-item-name-white">– PROG –</h1>
+                    <h1 class="package-item-price-white">10.000 ₽</h1>
+                    <p class="package-item-desc-white">УМК по программированию</p>
+                    <button class="package-item-button" href="#sign">Оставить заявку</button>
+                </div>
+            </div>
+        </section>
+        <section class="sign" id="sign">
+            <div class="sign-container">
+                <div class="sign-desc-container">
+                    <h1 class="sign-title">Запишитесь на курс со скидкой 10%</h1>
+                    <p class="sign-desc">Акция действительна до 10 марта 2022 года</p>
+                </div>
+                <div class="sign-inputs">
+                    <input class="sign-input" id="sign-name" type="name" placeholder="Имя">
+                    <input class="sign-input" id="sign-number" type="phone" placeholder="Номер">
+                    <input class="sign-input" id="sign-email" type="email" placeholder="E-mail">
+                    <button class="sign-button" type="button" id="sign-btn">Оформить заявку</button>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div>
+            <h1 class="footer-title">ROBO.SCHOOL</h1>
+            <h2 class="footer-number">+7 800 000 11 22</h2>
+        </div>
+        <div>
+            <p class="footer-brand">© ROBO.SCHOOL</p>
+        </div>
+    </footer>
+    <script src="smooth_scroll.js"></script>
+    <script src="scroll_to.js"></script>
+    <script src="sign.js"></script>
+</body>
+</html>
